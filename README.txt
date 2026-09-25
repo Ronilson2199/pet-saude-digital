@@ -17,3 +17,4 @@ O layout foi preparado para:
 - computador: banner fica centralizado, com largura máxima de 1080 px;
 - tablets: adaptação automática;
 - impressão: remove margens e sombra.
+- Atualização do projeto.
