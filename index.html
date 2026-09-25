@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#064a91">
+  <meta name="description" content="PET-Saúde Digital - AMBESP Maceió - AL">
+  <title>PET-Saúde Digital | AMBESP</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      width: 100%;
+      min-height: 100%;
+    }
+
+    body {
+      background: #f4f8fb;
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      overflow-x: hidden;
+    }
+
+    main {
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .banner {
+      display: block;
+      width: min(100%, 1080px);
+      height: auto;
+      max-width: 1080px;
+    }
+
+    @media (min-width: 768px) {
+      body {
+        padding: 20px;
+      }
+
+      .banner {
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+      }
+    }
+
+    @media (max-width: 767px) {
+      .banner {
+        width: 100%;
+      }
+    }
+
+    @media print {
+      body {
+        padding: 0;
+        background: white;
+      }
+
+      .banner {
+        width: 100%;
+        max-width: none;
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <img
+      class="banner"
+      src="banner.jpg"
+      alt="Banner informativo do PET-Saúde Digital e AMBESP sobre comunicação de ausência em consultas"
+      loading="eager"
+    >
+  </main>
+</body>
+</html>
